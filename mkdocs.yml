@@ -3,4 +3,14 @@ site_url: https://example.com/
 nav:
   - Home: index.md
   - 3D Printing: 3d_printing.md
+  - Arduino: arduino.md
+  - Azure: azure.md
+  - Blender: blender.md
+  - .Net: dotnet.md
+  - Fusion 360: fusion_360.md
+  - GitHub: github.md
+  - Python: python.md
+  - Raspberry Pi: raspberry_pi.md
+  - Unity 3D: unity.md
+  - Unreal Engine: unreal.md
 theme: readthedocs
