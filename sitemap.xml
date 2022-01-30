@@ -10,4 +10,54 @@
          <lastmod>2022-01-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://example.com/arduino/</loc>
+         <lastmod>2022-01-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/azure/</loc>
+         <lastmod>2022-01-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/blender/</loc>
+         <lastmod>2022-01-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/dotnet/</loc>
+         <lastmod>2022-01-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/fusion_360/</loc>
+         <lastmod>2022-01-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/github/</loc>
+         <lastmod>2022-01-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/python/</loc>
+         <lastmod>2022-01-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/raspberry_pi/</loc>
+         <lastmod>2022-01-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/unity/</loc>
+         <lastmod>2022-01-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/unreal/</loc>
+         <lastmod>2022-01-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
