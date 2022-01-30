@@ -1,0 +1,6 @@
+site_name: KTech Knowledgebase
+site_url: https://example.com/
+nav:
+  - Home: index.md
+  - 3D Printing: 3d_printing.md
+theme: readthedocs
