@@ -147,6 +147,41 @@ for lunch. Approximate cooking time: 45 minutes
   of tomato. Bake for 25 - 30 minutes, or until internal temperature reaches
   160F
 
+### Smoosh Burgers
+
+#### Ingredients
+
+Sauce:
+
+- (1/2) cup mayonnaise
+- (1/4) cup ketchup
+- (1/4) cup chopped onions
+- (1/4) cup chopped dill pickles
+
+Burgers:
+
+- (2) pounds 80/20 ground beef
+- (1) teaspoon salt
+- (1/2) teaspoon pepper
+- sliced cheese
+- burger buns
+
+#### Instructions
+
+Sauce:
+
+- Combine all ingredients and set aside in the fridge
+
+Burgers:
+
+- Heat grill or stove top and get it hot
+- Combine meat, salt and pepper in a large bowl. Mix it well and form 6
+  equal-sized balls. Sprinkle each ball with salt
+- Place the meat balls on the skillet. Smash the burger down to about 1 inch
+  thick. Cook for 2-3 minutes.
+- Flip burgers to the other side and smash down again. Add cheese if you're
+  using it, and cook another 2-3 minutes.
+
 ### Steaks with Creamy Mushrooms
 
 #### Ingredients
