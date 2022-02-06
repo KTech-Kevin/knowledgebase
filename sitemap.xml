@@ -2,72 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://example.com/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <lastmod>2022-02-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/3d_printing/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <lastmod>2022-02-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/arduino/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <lastmod>2022-02-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/azure/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <lastmod>2022-02-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/blender/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <lastmod>2022-02-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/dotnet/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <lastmod>2022-02-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/fusion_360/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <lastmod>2022-02-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/github/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <lastmod>2022-02-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/photoshop/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <lastmod>2022-02-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/python/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <lastmod>2022-02-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/raspberry_pi/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <lastmod>2022-02-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/recipes/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <lastmod>2022-02-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/unity/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <lastmod>2022-02-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/unreal/</loc>
-         <lastmod>2022-02-03</lastmod>
+         <lastmod>2022-02-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

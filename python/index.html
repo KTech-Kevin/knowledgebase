@@ -85,6 +85,14 @@
                 <ul class="current">
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">Python</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#list-comprehension">List Comprehension</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#syntax">Syntax</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#example">Example</a>
+    </li>
+        </ul>
+    </li>
     </ul>
                     </li>
                 </ul>
@@ -138,6 +146,34 @@
             <div class="section">
               
                 <h1 id="python">Python</h1>
+<h2 id="list-comprehension">List Comprehension</h2>
+<p>List comprehension is a way to create new lists, based on existing lists.</p>
+<h3 id="syntax">Syntax</h3>
+<pre><code>new_list = [ new_item for item in list if condition]
+new_dict = { new_key:new_value for (key, value) in dict.items() if condition }
+</code></pre>
+<h3 id="example">Example</h3>
+<pre><code># List
+list_1 = [ &quot;2&quot;, &quot;4&quot;, &quot;5&quot;, &quot;16&quot; ]
+list_2 = [ &quot;2&quot;, &quot;3&quot;, &quot;5&quot;, &quot;35&quot; ]
+
+shared_numbers = [ int(num) for num in list_1 if num in list_2 ]
+# [2, 5]
+
+# Dictionary
+weather_c = {
+  &quot;Monday&quot;: 10,
+  &quot;Tuesday&quot;: 25,
+  &quot;Wednesday&quot;: 18
+}
+
+weather_f = { day: (temp * 9 / 5 + 32) for (day, temp) in weather_c.items() }
+# {
+#   &quot;Monday&quot;: 50,
+#   &quot;Tuesday&quot;: 77,
+#   &quot;Wednesday&quot;: 64.4
+# }
+</code></pre>
               
             </div>
           </div>
