@@ -2,72 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://example.com/</loc>
-         <lastmod>2022-02-06</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/3d_printing/</loc>
-         <lastmod>2022-02-06</lastmod>
+         <loc>https://example.com/additive_manufacturing/3d_printing/</loc>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/arduino/</loc>
-         <lastmod>2022-02-06</lastmod>
+         <loc>https://example.com/cloud/azure/</loc>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/azure/</loc>
-         <lastmod>2022-02-06</lastmod>
+         <loc>https://example.com/coding/dotnet/</loc>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/blender/</loc>
-         <lastmod>2022-02-06</lastmod>
+         <loc>https://example.com/coding/electron/</loc>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/dotnet/</loc>
-         <lastmod>2022-02-06</lastmod>
+         <loc>https://example.com/coding/github/</loc>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/fusion_360/</loc>
-         <lastmod>2022-02-06</lastmod>
+         <loc>https://example.com/coding/python/</loc>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/github/</loc>
-         <lastmod>2022-02-06</lastmod>
+         <loc>https://example.com/design/blender/</loc>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/photoshop/</loc>
-         <lastmod>2022-02-06</lastmod>
+         <loc>https://example.com/design/fusion_360/</loc>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/python/</loc>
-         <lastmod>2022-02-06</lastmod>
+         <loc>https://example.com/game_dev/unity/</loc>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/raspberry_pi/</loc>
-         <lastmod>2022-02-06</lastmod>
+         <loc>https://example.com/game_dev/unreal/</loc>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/recipes/</loc>
-         <lastmod>2022-02-06</lastmod>
+         <loc>https://example.com/graphic_design/photoshop/</loc>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/unity/</loc>
-         <lastmod>2022-02-06</lastmod>
+         <loc>https://example.com/health/recipes/</loc>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/unreal/</loc>
-         <lastmod>2022-02-06</lastmod>
+         <loc>https://example.com/microcontrollers/arduino/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/microcontrollers/raspberry_pi/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/sysadmin/powershell/</loc>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

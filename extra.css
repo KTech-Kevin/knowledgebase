@@ -1,0 +1,10 @@
+/* Change the color of the categories */
+.caption-text {
+  color: white;
+  font-weight: bold;
+}
+
+/* Indent the sub-navigation items under the categories */
+.toctree-l1 {
+  margin-left: 16px;
+}

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="canonical" href="https://example.com/coding/electron/">
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Electron - KTech Knowledgebase</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Electron";
+    var mkdocs_page_input_path = "coding\\electron.md";
+    var mkdocs_page_url = "/coding/electron/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> KTech Knowledgebase</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">3D Modeling</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../design/blender/">Blender</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../design/fusion_360/">Fusion 360</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Additive Manufacturing</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../additive_manufacturing/3d_printing/">3D Printing</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Coding</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../dotnet/">.Net</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Electron</a>
+    <ul class="current">
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../github/">GitHub</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../python/">Python</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Cloud</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../cloud/azure/">Azure</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Game Development</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../game_dev/unity/">Unity 3D</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../game_dev/unreal/">Unreal Engine</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Graphic Design</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../graphic_design/photoshop/">Photoshop</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Health</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../health/recipes/">Recipes</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Microcontrollers</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../microcontrollers/arduino/">Arduino</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../microcontrollers/raspberry_pi/">Raspberry Pi</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">System Administration</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../sysadmin/powershell/">Powershell</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">KTech Knowledgebase</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Coding &raquo;</li>
+        
+      
+    
+    <li>Electron</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="electron">Electron</h1>
+<ol>
+<li>Create the react app</li>
+</ol>
+<pre><code>npx create-react-app &lt;APP-NAME&gt;
+</code></pre>
+<ol>
+<li>Create main.js in the public folder</li>
+</ol>
+<pre><code>const { app, BrowserWindow } = require('electron')
+
+function createWindow () {
+  // Create the browser window.
+  const win = new BrowserWindow({
+    width: 800,
+    height: 600,
+    webPreferences: {
+      nodeIntegration: true
+    }
+  })
+
+  //load the index.html from a url
+  win.loadURL('http://localhost:3000');
+
+  // Open the DevTools.
+  win.webContents.openDevTools()
+}
+
+// This method will be called when Electron has finished
+// initialization and is ready to create browser windows.
+// Some APIs can only be used after this event occurs.
+app.whenReady().then(createWindow)
+
+// Quit when all windows are closed, except on macOS. There, it's common
+// for applications and their menu bar to stay active until the user quits
+// explicitly with Cmd + Q.
+app.on('window-all-closed', () =&gt; {
+  if (process.platform !== 'darwin') {
+    app.quit()
+  }
+})
+
+app.on('activate', () =&gt; {
+  // On macOS it's common to re-create a window in the app when the
+  // dock icon is clicked and there are no other windows open.
+
+  if (BrowserWindow.getAllWindows().length === 0) {
+    createWindow()
+  }
+})
+
+// In this file you can include the rest of your app's specific main process
+// code. You can also put them in separate files and require them here.
+</code></pre>
+<ol>
+<li>Add the following lines to package.json</li>
+</ol>
+<pre><code>// at the root
+&quot;main&quot;: &quot;public/main.js&quot;,
+
+// in the scripts section
+&quot;electron-dev&quot;: &quot;electron .&quot;
+</code></pre>
+<ol>
+<li>Install electron and electron-is-dev</li>
+</ol>
+<pre><code>npm install electron
+npm install -D electron electron-is-dev
+</code></pre>
+<ol>
+<li>Run the following commands in different terminals</li>
+</ol>
+<pre><code>npm start
+npm run electron-dev
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../github/" class="btn btn-neutral float-right" title="GitHub">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../dotnet/" class="btn btn-neutral" title=".Net"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../dotnet/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../github/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
