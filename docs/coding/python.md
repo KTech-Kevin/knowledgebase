@@ -35,3 +35,18 @@ weather_f = { day: (temp * 9 / 5 + 32) for (day, temp) in weather_c.items() }
 #   "Wednesday": 64.4
 # }
 ```
+
+## Azure Function Powershell Issue
+
+If you get an error about the powershell script not being signed when debugging
+an azure function, run the following command from an admin powershell prompt:
+
+```
+Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy Unrestricted
+```
+
+Be sure to reset it when finished
+
+```
+Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy AllSigned
+```

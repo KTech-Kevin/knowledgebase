@@ -2,17 +2,29 @@ site_name: KTech Knowledgebase
 site_url: https://example.com/
 nav:
   - Home: index.md
-  - 3D Printing: 3d_printing.md
-  - Arduino: arduino.md
-  - Azure: azure.md
-  - Blender: blender.md
-  - .Net: dotnet.md
-  - Fusion 360: fusion_360.md
-  - GitHub: github.md
-  - Photoshop: photoshop.md
-  - Python: python.md
-  - Raspberry Pi: raspberry_pi.md
-  - Recipes: recipes.md
-  - Unity 3D: unity.md
-  - Unreal Engine: unreal.md
+  - 3D Modeling:
+      - Blender: design/blender.md
+      - Fusion 360: design/fusion_360.md
+  - Additive Manufacturing:
+      - 3D Printing: additive_manufacturing/3d_printing.md
+  - Coding:
+      - .Net: coding/dotnet.md
+      - Electron: coding/electron.md
+      - GitHub: coding/github.md
+      - Python: coding/python.md
+  - Cloud:
+      - Azure: cloud/azure.md
+  - Game Development:
+      - Unity 3D: game_dev/unity.md
+      - Unreal Engine: game_dev/unreal.md
+  - Graphic Design:
+      - Photoshop: graphic_design/photoshop.md
+  - Health:
+      - Recipes: health/recipes.md
+  - Microcontrollers:
+      - Arduino: microcontrollers/arduino.md
+      - Raspberry Pi: microcontrollers/raspberry_pi.md
+  - System Administration:
+      - Powershell: sysadmin/powershell.md
 theme: readthedocs
+extra_css: [extra.css]
